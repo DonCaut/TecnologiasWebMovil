@@ -16,3 +16,4 @@ var n=10;
 
 var n;
 console.log(n)
+
