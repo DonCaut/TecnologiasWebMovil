@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    
+</head>
+<body>
+    
+    <h1>Calculadora de IMC</h1>
+    <form action="#" onsubmit="event.preventDefault(); calcular();">
+        <label for="nombre">Nombre</label>
+        <input id="nombre"type="text" placeholder="Ingrese su nombre">
+
+    </form>
+    <p></p>
+    <form action="#" onsubmit="event.preventDefault();calcular();">
+        <label for="peso">Peso (kg)</label>
+        <input id="peso" type="number" placeholder="Ingrese su peso (kg)">
+    
+    </form>
+    <p></p>
+    <form action="#" onsubmit="event.preventDefault();calcular();">
+        <label for="altura">Altura)</label>
+        <input id="altura" type="number" placeholder="Ingrese su altura (metros)">
+    
+    </form>
+    <p></p>
+    <form action="#" onsubmit="event.preventDefault();calcular();">
+        <label for="edad">Edad</label>
+        <input id="edad" type="number" placeholder="Ingrese su edad">
+    
+    </form>
+    <p></p>
+    <form action="#" onsubmit="event.preventDefault();calcular();">
+
+        <label for="genero">Género</label>
+        <select id="genero">
+            
+            <option value="1">Masculino</option>
+            <option value="2">Femenino</option>
+        </select>
+
+    </form>
+    <p></p>
+    <form action="#" onsubmit="event.preventDefault();calcular();">
+        <label for="actividadFisica">Actividad física</label>
+        <select id="actividadFisica">
+            
+            <option value="1.2">Sedentario</option>
+            <option value="1.55">Moderado</option>
+            <option value="1.9">Activo</option>
+        </select>
+
+    </form>
+    <p></p>
+    <button onclick="calcular();" >Calcular</button>
+    <p></p>
+    <header>
+        <h1 id="h1"></h1>
+    </header>
+    <p>IMC: 
+    <span id="imc"></span></p>
+    <p>Clasificación: 
+    <span id="clasificacion"></span></p>
+    <p>Gasto energético diario: 
+    <span id="gastoEnergetico"></span></p>
+    <p>Estado nutricional: 
+    <span id="estadoNutricional"></span></p>
+
+    
+    
+    <script src="reto4.js"></script>
+    
+</body>
+</html>
