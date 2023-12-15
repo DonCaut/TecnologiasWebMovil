@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <div>
+            
+        <form inputmode="#" onsubmit="event.generar();">
+            <label for="largo">Largo de contraseña</label>
+            <input id="largo" type="number" placeholder="Longitud contraseña">
+            <p></p>
+            <label for="may">Con Mayúsculas</label>
+            <input id="may" type="checkbox">
+            <p></p>
+            <label for="min">Con Minúsculas</label>
+            <input id="min" type="checkbox">
+            <p></p>
+            <label for="num">Con Números</label>
+            <input id="num" type="checkbox">
+            <p></p>
+            <label for="esp">Con Caracteres Especiales</label>
+            <input id="esp" type="checkbox">
+            
+
+        </form>
+        <p></p>
+        <div>
+            <button id="generar" onclick="generar()">Generar Contraseña
+
+            </button>
+
+        </div>
+        <p></p>
+        <span id="generada">Contraseña: </span>
+        <p></p>
+        <span id="test">T</span>
+
+    
+
+    </div>
+
+    <script src="contrasena.js"></script>
+    
+
+
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
